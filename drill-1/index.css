@@ -1,0 +1,51 @@
+* { 
+    margin:0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+body { 
+    width: 100%;
+}
+
+header {
+    width: 100%; 
+    height: 100vh; 
+}
+
+.topPage { 
+    z-index: 5; 
+    position: absolute;
+    width: 100%; 
+    height: 150px; 
+    top: 0; 
+    background-color: rgb(66,66,66);
+
+    
+}
+
+.leftPage { 
+    left: 0;
+    position: absolute;
+    width: 140px; 
+    height: 100%; 
+    background-color: gray;
+
+}
+
+.rightPage {  
+    right:0; 
+    position: absolute;
+    width: 140px; 
+    height: 100%; 
+    background-color: gray; 
+}
+
+.bottomPage { 
+    z-index:-1; 
+    bottom: 0;
+    position: absolute;
+    width: 100%; 
+    height: 140px; 
+    background-color: black;
+
+}

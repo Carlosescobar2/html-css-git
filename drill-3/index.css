@@ -1,0 +1,67 @@
+* { 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.greyBox { 
+    z-index: 5; 
+    position: absolute;
+    width: 100%; 
+    height: 16%; 
+    top: 0; 
+    background-color: rgb(201, 201, 201);
+}
+.Blueblock { 
+    background-color: rgb(0, 162, 255);
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: 20px;
+    height: 100px;
+    width: 100px; 
+  }
+
+.boxBig { 
+    position:absolute;
+    margin-top: 350px; 
+    margin-left: 90px;
+    text-align: center;
+    font-size: 150%;
+
+}
+
+.v2blueBlock { 
+    position: absolute;
+    width: 100%; 
+    height: 16%; 
+    top: 0; 
+    background-color: rgb(11, 14, 219);
+    margin-top: 450px;
+}
+
+.lighblueBlock {
+    position: absolute;
+    width: 100%; 
+    height: 16%; 
+    top: 0; 
+    background-color: rgb(13, 170, 243);
+    margin-top: 600px;
+}
+
+
+.greenblock { 
+    position: absolute;
+    width: 100%; 
+    height: 16%; 
+    top: 0; 
+    background-color: rgb(124, 243, 13);
+    margin-top: 700px;
+}
+
+.yellowBlock  {
+    position: absolute;
+    width: 100%; 
+    height: 16%; 
+    top: 0; 
+    background-color: rgb(243, 239, 13);
+    margin-top: 850px;
+}
